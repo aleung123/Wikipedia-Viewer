@@ -1,9 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
+	<meta charset="utf-8">
+	<title>Wikipedia Viewer</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+	   	<!-- CSS files-->
+	   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	   	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-
+	<div class="container">
+		<div class="text-center">
+			<h1>Wikipedia Viewer</h1>
+			<a href="https://en.wikipedia.org/wiki/Special:Random" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wikipedia-logo-v2-en.svg/1200px-Wikipedia-logo-v2-en.svg.png"></a>
+			<div class="row">
+				<div class="col-md-8">
+				<input class="form-control" id="searchTerm" placeholder="Enter your search">
+				</div>
+				<div class="col md-1">
+				<button id="search" type="button" class="btn btn-primary">Submit</button>
+				</div>
+			</div>
+		</div>
+		<ul id="output"></ul>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
