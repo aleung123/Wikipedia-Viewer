@@ -1,6 +1,10 @@
+body {
+	margin-bottom: 40px;
+}
+
 .container {
 	font-family: Georgia, serif;
-	margin-top: 40px;
+	padding-top: 40px;
 }
 
 img {
